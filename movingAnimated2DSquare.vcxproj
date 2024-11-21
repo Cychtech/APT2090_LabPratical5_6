@@ -156,6 +156,11 @@
     <ClInclude Include="Pyramid3D.h" />
     <ClInclude Include="Rotating3DCube.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\Documents\install.htm">
+      <DeploymentContent>true</DeploymentContent>
+    </None>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
